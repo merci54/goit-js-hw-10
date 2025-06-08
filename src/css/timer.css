@@ -1,0 +1,7 @@
+#datetime-picker {
+    max-width: 300px;
+}
+
+button[data-start] {
+    width: 300px;
+}
