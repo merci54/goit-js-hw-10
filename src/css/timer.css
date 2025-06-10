@@ -3,5 +3,31 @@
 }
 
 button[data-start] {
-    width: 300px;
+    width: 80px;
+}
+
+.timer {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.value {
+    font-size: 40px;
+    line-height: 1;
+}
+
+.label {
+    font-size: 15px;
+    text-transform: uppercase;
 }
